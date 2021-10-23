@@ -8,6 +8,7 @@
 
 header{
     background-color: rgb(206, 204, 204);
+    overflow: hidden;
 }
 
 body {
@@ -29,3 +30,40 @@ h1, h2{
     float: left;
     font-size: 275%;
 }
+
+/* navigation */
+
+#controls{
+    font-size: 125%;
+    letter-spacing: 4px;
+    float: right;
+    padding-right: 50px;
+}
+
+#controls, #logo {
+    line-height: 75px;
+}
+
+#controls ul{
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#controls li {
+    float: left;
+    margin-right: 25px;
+  }
+
+#controls a{
+    text-decoration: none;
+    color: #001020;
+}
+
+#controls a:hover{
+    border-bottom: 1px solid #001020;
+}
+
+.active{
+    border-bottom: 1px solid #001020;
+}
+
