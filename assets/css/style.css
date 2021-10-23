@@ -17,3 +17,15 @@ body {
     color: rgb(206, 204, 204);
 }
 
+/* heading styles and logo */
+
+h1, h2{
+    font-family: Cinzel, sans-serif;
+    letter-spacing: 2px;
+    color: #001020;
+}
+
+#logo{
+    float: left;
+    font-size: 275%;
+}
