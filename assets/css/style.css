@@ -89,6 +89,26 @@ h1, h2{
     color: rgb(206, 204, 204);
 }
 
+.btn{
+    display: block;
+    font-size: 20px;
+    padding: 16px 20px;
+    border-radius: 20px;
+    background-color: rgb(206, 204, 204);
+    color: #001020;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #001020;
+}
+
+.btn:hover{
+    background-color: #c0d0e0;
+}
+
 /* about section for site and game */
 
 #about{
@@ -110,3 +130,4 @@ h1, h2{
     background-color: green;
     height: 400px;
 }
+
