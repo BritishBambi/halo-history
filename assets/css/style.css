@@ -160,8 +160,13 @@ hr{
 }
 
 #about-halo-heading a{
-    color: white;
+    color:rgb(119, 179, 135);
     text-decoration: none;
+}
+
+#about-halo-heading a:hover{
+    color:rgb(56, 110, 70);
+    text-decoration: underline;
 }
 
 /* footer content */
