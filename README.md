@@ -42,4 +42,8 @@ https://free4kwallpapers.com/halo-wallpapers
 
 ## Acknowledgements
 
+All game descriptions are taken from:
+
+https://www.halowaypoint.com/en-gb
+
 **This project is for educational purposes only**
