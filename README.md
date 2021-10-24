@@ -15,13 +15,20 @@ The colour scheme is based on a simple white and deep blue to contrast the text 
 ## Technologies used
 
 HTML
+
 CSS
+
 Google Fonts
+
 Gitpod
+
 Wave Evaluation Tool
+
 Github
 
 ## Bugs
+
+During early development I had incorrectly assigned the list-style for my navigation in the wrong area. It was only when resizing to test responsiveness I realised it was there but hidden as it was the same colour as thhe background. I was able to fix this by moving the list style rule from the #controls ul to #controls li
 
 ## Credits
 

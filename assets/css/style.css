@@ -4,6 +4,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -34,6 +35,10 @@ h1, h2{
 
 /* navigation */
 
+.navigation{
+    display: flex;
+}
+
 #controls{
     font-size: 125%;
     letter-spacing: 4px;
@@ -47,12 +52,12 @@ h1, h2{
 
 #controls ul{
     margin-right: 30px;
-    list-style-type: none;
 }
 
 #controls li {
     float: left;
     margin-right: 25px;
+    list-style-type: none;
   }
 
 #controls a{
@@ -82,4 +87,26 @@ h1, h2{
 
 #welcome-message{
     color: rgb(206, 204, 204);
+}
+
+/* about section for site and game */
+
+#about{
+    height: 600px;
+}
+
+#about-site{
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+    background-color: red;
+    height: 400px;
+}
+
+#about-halo{
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+    background-color: green;
+    height: 400px;
 }
