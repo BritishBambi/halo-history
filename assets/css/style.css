@@ -24,7 +24,14 @@ body {
 h1, h2{
     font-family: Cinzel, sans-serif;
     letter-spacing: 2px;
+}
+
+h1{
     color: #001020;
+}
+
+h2{
+    color: rgb(206, 204, 204);
 }
 
 #logo{
@@ -98,6 +105,7 @@ h1, h2{
     color: #001020;
     cursor: pointer;
     margin-left: 350px;
+    margin-top: 25px;
 }
 
 .btn a{
@@ -112,25 +120,51 @@ h1, h2{
 /* about section for site and game */
 
 #about{
-    height: 600px;
+    height: 300px;
 }
 
 #about-site{
     padding-top: 30px;
     width: 45%;
     float: left;
-    background-color: red;
     height: 400px;
 }
 
 #about-halo{
-    padding-top: 30px;
+    padding-top:30px;
     width: 45%;
     float: right;
-    background-color: green;
     height: 400px;
 }
+hr{
+    border-bottom: solid 1px rgb(206, 204, 204);
+    margin: 5px;
+}
 
+#about-site-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    font-size: 125%;
+}
+
+#about-halo-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    font-size: 125%;
+}
+
+#about-halo-heading a{
+    color: white;
+    text-decoration: none;
+}
+
+/* footer content */
 footer{
     text-align: center;
     height: 30px;
