@@ -4,6 +4,31 @@ My Website is designed to Introduce and Reinform possible customers of the Halo 
 
 ## UX
 
-As stated by the introduction, the site will aim to draw in people to gain interest in the Halo franchise. To do this, the site will use a simple homepage to encourage new users to find out more. At the same time it will be easy for pre-existing users to find the content that they may be interested in. The home page will feature a refreshing music section to encourage users to log in each day.
+As stated by the introduction, the site will aim to draw in people to gain interest in the Halo franchise. To do this, the site will use a simple homepage to encourage new users to find out more. At the same time it will be easy for pre-existing users to find the content that they may be interested in. 
 
 The colour scheme is based on a simple white and deep blue to contrast the text for ease of reading. 
+
+### User Stories
+
+## Features
+
+## Technologies used
+
+HTML
+CSS
+Google Fonts
+Gitpod
+Wave Evaluation Tool
+Github
+
+## Bugs
+
+## Credits
+
+My background image was taken from:
+
+https://free4kwallpapers.com/halo-wallpapers
+
+## Acknowledgements
+
+**This project is for educational purposes only**
