@@ -131,3 +131,18 @@ h1, h2{
     height: 400px;
 }
 
+footer{
+    text-align: center;
+    height: 30px;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 175%;
+    margin: 0 auto;
+    padding: 15px;
+    color: rgb(206, 204, 204);
+}
