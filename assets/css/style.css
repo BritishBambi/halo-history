@@ -74,5 +74,12 @@ h1, h2{
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
 }
 
+#welcome-message{
+    color: rgb(206, 204, 204);
+}
