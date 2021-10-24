@@ -32,6 +32,8 @@ During early development I had incorrectly assigned the list-style for my naviga
 
 For some duration my footer text was not on one line. I was unable to find out why, I then discovered that the divs representing the content blocks on the main page were not the same height as the entire section was set to be. By Setting them down from 400px to 300px the same as the #about section. The content did not change, however the footer text rearanged itself to fit on one line.
 
+While coding, encountered a Blue Screen of Death Error which erased some work half way through some code. Had to wipe clean to be able to structure the timeline properly again.
+
 ## Credits
 
 My background image was taken from:
