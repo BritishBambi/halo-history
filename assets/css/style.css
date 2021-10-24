@@ -127,14 +127,14 @@ h2{
     padding-top: 30px;
     width: 45%;
     float: left;
-    height: 400px;
+    height: 300px;
 }
 
 #about-halo{
     padding-top:30px;
     width: 45%;
     float: right;
-    height: 400px;
+    height: 300px;
 }
 hr{
     border-bottom: solid 1px rgb(206, 204, 204);
@@ -146,7 +146,6 @@ hr{
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
     font-size: 125%;
 }
 
@@ -155,7 +154,6 @@ hr{
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
     font-size: 125%;
 }
 
