@@ -28,7 +28,9 @@ Github
 
 ## Bugs
 
-During early development I had incorrectly assigned the list-style for my navigation in the wrong area. It was only when resizing to test responsiveness I realised it was there but hidden as it was the same colour as thhe background. I was able to fix this by moving the list style rule from the #controls ul to #controls li
+During early development I had incorrectly assigned the list-style for my navigation in the wrong area. It was only when resizing to test responsiveness I realised it was there but hidden as it was the same colour as thhe background. I was able to fix this by moving the list style rule from the #controls ul to #controls li.
+
+For some duration my footer text was not on one line. I was unable to find out why, I then discovered that the divs representing the content blocks on the main page were not the same height as the entire section was set to be. By Setting them down from 400px to 300px the same as the #about section. The content did not change, however the footer text rearanged itself to fit on one line.
 
 ## Credits
 
