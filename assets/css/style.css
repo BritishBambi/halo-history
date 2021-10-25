@@ -83,7 +83,7 @@ h2{
 /* hero image */
 
 #hero-image{
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
     justify-content:center;
@@ -94,6 +94,11 @@ h2{
 
 #welcome-message{
     color: rgb(206, 204, 204);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn{
@@ -104,8 +109,8 @@ h2{
     background-color: rgb(206, 204, 204);
     color: #001020;
     cursor: pointer;
-    margin-left: 350px;
-    margin-top: 25px;
+    /* margin-left: 350px;
+    margin-top: 25px; */
 }
 
 .btn a{
@@ -259,8 +264,47 @@ footer{
     color: rgb(206, 204, 204);
 }
 
-@media screen and (max-width:800px){
+
+
+@media screen and (min-width: 360px) {
+    #welcome-message{
+        font-size: 20px;
+    }
+    #hero-image{
+        height: 200px;
+    }
     #about{
-        font-size: smaller;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    #hero-image{
+        height: 300px;
+    }
+    #welcome-message{
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (min-width:900px){
+    #hero-image{
+        height: 400px;
+    }
+    #welcome-message{
+        font-size: 40px;
+    }
+    #about{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1040px){
+    #hero-image{
+        height: 500px;
+    }
+    #welcome-message{
+        font-size: 50px;
     }
 }
