@@ -204,6 +204,13 @@ hr{
 #infinite{
     justify-content: center;
     text-align: center;
+    font-size: larger;
+}
+
+#infinite-art{
+    background: url(../images/halo-infinite.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
 }
 
 /* media players */
