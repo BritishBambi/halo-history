@@ -40,10 +40,29 @@ My background image was taken from:
 
 https://free4kwallpapers.com/halo-wallpapers
 
-## Acknowledgements
-
 All game descriptions are taken from:
 
 https://www.halowaypoint.com/en-gb
+
+Halo: Combat Evolved Trailer from:
+
+https://www.youtube.com/watch?v=v0kHiEME0Vk
+
+Halo 2 Trailer from:
+
+https://www.youtube.com/watch?v=ATUSC9ohowk
+
+Halo 3 Trailer from:
+
+https://www.youtube.com/watch?v=yMwXD_zQfRw&feature=emb_title
+
+Halo 4 Trailer from: 
+
+https://www.youtube.com/watch?v=DIspQ1NmGf4
+
+Halo 5 Trailer from:
+
+https://www.youtube.com/watch?v=Rh_NXwqFvHc
+## Acknowledgements
 
 **This project is for educational purposes only**
