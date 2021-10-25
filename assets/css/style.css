@@ -125,26 +125,30 @@ h2{
 
 #about-site{
     padding-top: 30px;
-    width: 45%;
+    width: 500px;
     height: 300px;
+    flex-shrink: 0;
 }
 
 #about-halo{
     padding-top:30px;
-    width: 45%;
+    width: 500px;
     height: 300px;
+    flex-shrink: 0;
 }
 
 .flexbox-container {
+    height: 65%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .flexbox-item {
     width: 200px;
     margin: 10px;
-    background-color: #dfdfdf;
 }
 
 hr{
@@ -153,18 +157,12 @@ hr{
 }
 
 #about-site-heading{
-    width: 60%;
-    float: right;
     line-height: 20px;
-    clear: both;
     font-size: 125%;
 }
 
 #about-halo-heading{
-    width: 60%;
-    float: left;
     line-height: 20px;
-    clear: both;
     font-size: 125%;
 }
 
@@ -246,8 +244,8 @@ hr{
 /* footer content */
 footer{
     text-align: center;
-    height: 30px;
-    margin-top: 50px;
+    height: 40px;
+    margin-top: 30px;
 }
 
 .social-links li{
@@ -259,4 +257,10 @@ footer{
     margin: 0 auto;
     padding: 15px;
     color: rgb(206, 204, 204);
+}
+
+@media screen and (max-width:800px){
+    #about{
+        font-size: smaller;
+    }
 }
