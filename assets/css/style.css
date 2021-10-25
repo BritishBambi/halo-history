@@ -120,22 +120,33 @@ h2{
 /* about section for site and game */
 
 #about{
-    height: 300px;
+    height: 65%;
 }
 
 #about-site{
     padding-top: 30px;
     width: 45%;
-    float: left;
     height: 300px;
 }
 
 #about-halo{
     padding-top:30px;
     width: 45%;
-    float: right;
     height: 300px;
 }
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    background-color: #dfdfdf;
+}
+
 hr{
     border-bottom: solid 1px rgb(206, 204, 204);
     margin: 5px;
@@ -236,6 +247,7 @@ hr{
 footer{
     text-align: center;
     height: 30px;
+    margin-top: 50px;
 }
 
 .social-links li{
