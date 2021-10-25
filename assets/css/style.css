@@ -199,6 +199,13 @@ hr{
     margin-bottom: 20px;
 }
 
+/* halo infinite section */
+
+#infinite{
+    justify-content: center;
+    text-align: center;
+}
+
 /* media players */
 
 .video-container { 
