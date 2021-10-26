@@ -284,6 +284,11 @@ form button{
     border-radius: 15px;
 }
 
+form button:hover{
+    background-color: #c0d0e0;
+    cursor: pointer;
+}
+
 /* media players */
 
 .video-container {
