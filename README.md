@@ -24,6 +24,12 @@ After the creation of my site I kept as close to my wireframes as possible. Howe
 
 ## Features
 
+### Existing Features
+
+### Future Plans
+
+## Testing
+
 ## Technologies used
 
 HTML
@@ -50,6 +56,8 @@ For a majority of development I had used floats to space and align content. Howe
 
 ## Credits
 
+### Site Content
+
 My background image was taken from:
 
 https://free4kwallpapers.com/halo-wallpapers
@@ -57,6 +65,10 @@ https://free4kwallpapers.com/halo-wallpapers
 All game descriptions are taken from:
 
 https://www.halowaypoint.com/en-gb
+
+Halo Infinite image/wallpaper taken from:
+
+https://www.halowaypoint.com/en-us/forums/29568daf8cd14083bd1b70a810bf3581/topics/halo-infinite-xgs-press-kit-2020/be564010-250c-47c9-af39-ebb9c7f27f18/posts
 
 Halo: Combat Evolved Trailer from:
 
