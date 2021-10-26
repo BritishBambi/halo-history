@@ -10,6 +10,13 @@
 header{
     background-color: rgb(206, 204, 204);
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
 }
 
 body {
@@ -35,9 +42,7 @@ h2{
 }
 
 #logo{
-    float: left;
     font-size: 275%;
-    padding-left: 50px;
 }
 
 /* navigation */
@@ -49,23 +54,20 @@ h2{
 #controls{
     font-size: 125%;
     letter-spacing: 4px;
-    float: right;
-    padding-right: 50px;
 }
 
 #controls, #logo {
     line-height: 75px;
 }
 
-#controls ul{
-    margin-right: 30px;
-}
-
 #controls li {
     float: left;
-    margin-right: 25px;
     list-style-type: none;
   }
+
+.item{
+    padding-left: 20px;
+}
 
 #controls a{
     text-decoration: none;
@@ -109,8 +111,6 @@ h2{
     background-color: rgb(206, 204, 204);
     color: #001020;
     cursor: pointer;
-    /* margin-left: 350px;
-    margin-top: 25px; */
 }
 
 .btn a{
@@ -265,8 +265,9 @@ footer{
 }
 
 
+/* media queries for smaller screen sizes */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
     #welcome-message{
         font-size: 20px;
     }
@@ -285,7 +286,24 @@ footer{
     #welcome-message{
         font-size: 40px;
     }
+}
+
+
+/* media queries to make navbar position correctly on smaller devices  */
+@media screen and (max-width:800px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
     
+}
+@media screen and (min-width:800px) {
+    .edge{
+        padding-right: 20px;
+    }
+    #logo{
+        padding-left: 20px;
+    }
 }
 
 @media screen and (min-width:900px){
