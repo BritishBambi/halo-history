@@ -248,6 +248,36 @@ hr {
     text-align: center;
 }
 
+/* sign up form styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 35%;
+    margin-top: 30px;
+}
+
+.form-input{
+    padding: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 3px;
+    letter-spacing: 1.3px;
+    width: 300px;
+    background-color: rgb(206, 204, 204);
+    
+}
+
+form button{
+    margin-top: 15px;
+    padding: 15px;
+    font-family: Cinzel, sans-serif;
+    font-size: larger;
+    background-color: rgb(206, 204, 204);
+}
+
 /* media players */
 
 .video-container {
