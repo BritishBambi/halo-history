@@ -267,15 +267,21 @@ form {
     letter-spacing: 1.3px;
     width: 300px;
     background-color: rgb(206, 204, 204);
-    
+    border-radius: 20px;
+}
+
+.form-input::placeholder{
+    color: #001020;
+    opacity: 0.6;
 }
 
 form button{
-    margin-top: 15px;
+    margin-top: 6px;
     padding: 15px;
     font-family: Cinzel, sans-serif;
-    font-size: larger;
+    font-size: 25px;
     background-color: rgb(206, 204, 204);
+    border-radius: 15px;
 }
 
 /* media players */
@@ -358,7 +364,7 @@ footer {
     }
 
     #newsletter-intro {
-        width: 50%;
+        width: 70%;
     }
 
     #about-site {
