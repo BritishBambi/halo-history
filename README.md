@@ -65,4 +65,8 @@ Halo 5 Trailer from:
 https://www.youtube.com/watch?v=Rh_NXwqFvHc
 ## Acknowledgements
 
+Code to add aria-label to my background image was found on Stackoverflow at:
+
+https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible/40562191
+
 **This project is for educational purposes only**

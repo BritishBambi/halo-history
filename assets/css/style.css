@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: rgb(206, 204, 204);
     overflow: hidden;
     display: flex;
@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
@@ -28,73 +28,75 @@ body {
 
 /* heading styles and logo */
 
-h1, h2{
+h1,
+h2 {
     font-family: Cinzel, sans-serif;
     letter-spacing: 2px;
 }
 
-h1{
+h1 {
     color: #001020;
 }
 
-h2{
+h2 {
     color: rgb(206, 204, 204);
 }
 
-#logo{
+#logo {
     font-size: 275%;
 }
 
 /* navigation */
 
-.navigation{
+.navigation {
     display: flex;
 }
 
-#controls{
+#controls {
     font-size: 125%;
     letter-spacing: 4px;
 }
 
-#controls, #logo {
+#controls,
+#logo {
     line-height: 75px;
 }
 
 #controls li {
     float: left;
     list-style-type: none;
-  }
+}
 
-.item{
+.item {
     padding-left: 20px;
 }
 
-#controls a{
+#controls a {
     text-decoration: none;
     color: #001020;
 }
 
-#controls a:hover{
+#controls a:hover {
     border-bottom: 1px solid #001020;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #001020;
 }
 
 /* hero image */
 
-#hero-image{
+#hero-image {
     height: 800px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
-    justify-content:center;
+    justify-content: center;
     display: flex;
     align-items: center;
     font-size: 40px;
 }
 
-#welcome-message{
+#welcome-message {
     color: rgb(206, 204, 204);
     display: flex;
     align-content: center;
@@ -103,7 +105,7 @@ h2{
     align-items: center;
 }
 
-.btn{
+.btn {
     display: block;
     font-size: 20px;
     padding: 16px 20px;
@@ -113,37 +115,38 @@ h2{
     cursor: pointer;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #001020;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #c0d0e0;
 }
 
 /* about section for site and game */
 
-#about{
+#about {
     height: 65%;
 }
 
-#about-site{
+#about-site {
     padding-top: 30px;
     width: 500px;
     height: 300px;
     flex-shrink: 0;
 }
 
-#about-halo{
-    padding-top:30px;
+#about-halo {
+    padding-top: 30px;
     width: 500px;
     height: 300px;
     flex-shrink: 0;
 }
 
+/* flex continer will allow the content blocks to stack properly at different screen sizes */
+
 .flexbox-container {
-    height: 65%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -156,41 +159,42 @@ h2{
     margin: 10px;
 }
 
-hr{
+hr {
     border-bottom: solid 1px rgb(206, 204, 204);
     margin: 5px;
 }
 
-#about-site-heading{
+#about-site-heading {
     line-height: 20px;
     font-size: 125%;
 }
 
-#about-halo-heading{
+#about-halo-heading {
     line-height: 20px;
     font-size: 125%;
 }
 
-#about-halo-heading a{
-    color:rgb(119, 179, 135);
+#about-halo-heading a {
+    color: rgb(119, 179, 135);
     text-decoration: none;
 }
 
-#about-halo-heading a:hover{
-    color:rgb(56, 110, 70);
+#about-halo-heading a:hover {
+    color: rgb(56, 110, 70);
     text-decoration: underline;
 }
 
 /* timeline */
 
-.container{
+.container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
-.timeline{
+
+.timeline {
     width: 90%;
     height: auto;
     max-width: 800px;
@@ -198,15 +202,15 @@ hr{
     position: relative;
 }
 
-.timeline h2{
+.timeline h2 {
     text-decoration: underline;
 }
 
-.timeline ul{
+.timeline ul {
     list-style: none;
 }
 
-.timeline ul li{
+.timeline ul li {
     padding: 20px;
     background-color: #001020;
     border-radius: 10px;
@@ -215,49 +219,69 @@ hr{
 
 /* halo infinite section */
 
-#infinite{
+#infinite {
     justify-content: center;
     text-align: center;
     font-size: larger;
 }
 
-#infinite-art{
+#infinite h2{
+    text-decoration: underline;
+}
+
+#infinite-art {
     background: url(../images/halo-infinite.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
 }
 
-/* media players */
+/* newsletter page style rules */
 
-.video-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    padding-top: 30px; 
-    height: 0; 
-    overflow: hidden; 
+#newsletter {
+    height: 65%;
 }
 
-.video-container iframe, .video-container object, .video-container embed { 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
+#newsletter-intro {
+    padding-top: 30px;
+    width: 800px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+
+/* media players */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     padding-top: 30px;
 }
 
 /* footer content */
-footer{
+footer {
     text-align: center;
     height: 40px;
     margin-top: 30px;
 }
 
-.social-links li{
+.social-links li {
     display: inline;
 }
 
-.social-links i{
+.social-links i {
     font-size: 175%;
     margin: 0 auto;
     padding: 15px;
@@ -266,63 +290,76 @@ footer{
 
 
 /* media queries for smaller screen sizes */
+/* each block will scale the welcome message and hero image to avoid wrap and keep the screen centered */
 
 @media screen and (min-width: 320px) {
-    #welcome-message{
+    #welcome-message {
         font-size: 20px;
     }
-    #hero-image{
+
+    #hero-image {
         height: 200px;
     }
-    #about{
-        font-size: 14px;
+
+    #about {
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width: 620px) {
-    #hero-image{
+    #hero-image {
         height: 300px;
     }
-    #welcome-message{
+
+    #welcome-message {
         font-size: 40px;
+    }
+
+    #about {
+        font-size: 14px;
     }
 }
 
 
 /* media queries to make navbar position correctly on smaller devices  */
 @media screen and (max-width:800px) {
-    header{
+    header {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
+
 @media screen and (min-width:800px) {
-    .edge{
+    .edge {
         padding-right: 20px;
     }
-    #logo{
+
+    #logo {
         padding-left: 20px;
     }
 }
 
-@media screen and (min-width:900px){
-    #hero-image{
+@media screen and (min-width:900px) {
+    #hero-image {
         height: 400px;
     }
-    #welcome-message{
+
+    #welcome-message {
         font-size: 40px;
     }
-    #about{
+
+    #about {
         font-size: 18px;
     }
 }
 
-@media screen and (min-width:1040px){
-    #hero-image{
+@media screen and (min-width:1040px) {
+    #hero-image {
         height: 500px;
     }
-    #welcome-message{
+
+    #welcome-message {
         font-size: 50px;
     }
 }
