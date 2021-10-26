@@ -4,9 +4,13 @@ My Website is designed to Introduce and Reinform possible customers of the Halo 
 
 ## UX
 
-As stated by the introduction, the site will aim to draw in people to gain interest in the Halo franchise. To do this, the site will use a simple homepage to encourage new users to find out more. At the same time it will be easy for pre-existing users to find the content that they may be interested in. 
+As stated by the introduction, the site will aim to draw in people to gain interest in the Halo franchise. To do this, the site will use a simple homepage to encourage new users to find out more. At the same time it will be easy for pre-existing users to find the content that they may be interested in. The Games page will make it easy to digest simple information about each game. Using YouTube embeded trailers I will also allow users to watch a sumarised version of each game to provide further content.
 
-The colour scheme is based on a simple white and deep blue to contrast the text for ease of reading. 
+The colour scheme is based on a simple white and deep blue to contrast the text for ease of reading. The Header will use this variation of white as the primary colour and all the text contained within it shall be blue. This will keep the heading at the central focus point and allow easy navigation. The rest of the sites content will rely on the deep blue in the background and allow bright text to be easily noitced and read. I have included wireframes and my sites main pages bellow to detail the proposed structure.
+
+![Initial sketch of the landing/home page](screenshots/home-page-sketch.PNG "Home Page Sketch")
+![Initial sketch of the landing/home page](screenshots/games-sketch.PNG "Games Page Sketch")
+![Initial sketch of the landing/home page](screenshots/newsletter-sketch.PNG "Newsletter Page Sketch")
 
 ### User Stories
 
@@ -65,8 +69,20 @@ Halo 5 Trailer from:
 https://www.youtube.com/watch?v=Rh_NXwqFvHc
 ## Acknowledgements
 
+Initial planning and methods were inspired by the Love Running Walkthrough
+
 Code to add aria-label to my background image was found on Stackoverflow at:
 
 https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible/40562191
+
+Flex box code and tutorial to make content responsive was found here:
+
+https://www.w3schools.com/css/css3_flexbox_responsive.asp
+
+https://flexboxfroggy.com
+
+Code to add images to readme:
+
+https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 
 **This project is for educational purposes only**
