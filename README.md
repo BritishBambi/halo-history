@@ -18,9 +18,18 @@ I have included wireframes and my sites main pages bellow to detail the proposed
 
 After the creation of my site I kept as close to my wireframes as possible. However when making the games page I ran into a lot of formatting issues. This made it very difficult to display a trailer, images and all the game descriptions in a mobile responsive way. To get around this I turned the entire section into solid content blocks which would allow an easy flow of Title->Description->Trailer. I also opted to include a description of the newsletter, making the content more clear to new users.
 
+User Stories as followed:
 
+### New Users
 
-### User Stories
+* I am wanting to learn what Halo is.
+* I am interested in the history and timeline of the games.
+* I am wanting to see what each game looks like and the story it presents.
+
+### Returning User
+
+* I am checking back for any updates regarding the newest game
+* I am wanting to sign up for the newsletter to get further information
 
 ## Features
 
