@@ -33,9 +33,21 @@ User Stories as followed:
 
 ## Features
 
-### Existing Features
+## Existing Features
 
-### Future Plans
+### Index/Home Page
+
+#### Nav Bar
+
+My Navigation bar consists of an unorderd list that has been aligned to the correct space on the screen using flexbox.
+
+The Nav bar will allow easy navigation across all pages of the site. It uses a simple active class to always inform the user what page they are on. It uses a similar class to also show an underline when a new page is hovered over. It exists on every page of the site, negating the need to use the back button at all.
+
+![Screenshot showing the Navigation bar on desktop](screenshots/nav-bar.PNG "Nav Bar from Site")
+
+
+
+## Future Plans
 
 ## Testing
 
