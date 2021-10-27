@@ -51,11 +51,30 @@ When users load into the main page for the first time they will be greeted by a 
 
 ![Screenshot showing the hero image on desktop](screenshots/hero-image-screenshot.PNG "Hero Image welcome message")
 
-#### Site Explination
+#### About Section
 
-#### Game Explination
+The Main about section on the home page will provide users with breif explinations of the sites intention. By doing this I am aiming to keep new users informed without overwhelming them with information. One block of text is directly to explain the site and the content included. The Second will explain the sites content further to pique interst.
+
+![Screenshot showing the about section on desktop](screenshots/about-screenshot.PNG "About Section")
+
 
 #### Footer
+
+The site has a footer that exists on every page of the website. It contains social links for Facebook, YouTube and Twitter. This will allow users to access thhe social media links from anywhere on the site. It will also open in a new tab to not take users away from the site.
+
+![Screenshot showing the site footer on desktop](screenshots/footer-screenshot.PNG "Wesbite Footer")
+
+#### Timeline
+
+The games page features a timeline that features a content block for each game. Each block has the title of the game, a brief description and a trailer presented through a YouTube video. I have configured the code to allow each block to scale correctly on mobile and tablet devices. The YouTube video can only be played when the user chooses. The user also has the option to watch the video in another tab via YouTube.
+
+![Screenshot showing timeline content on desktop](screenshots/timeline-screenshot.PNG "Timeline Content")
+
+#### Newsletter
+
+The Newsletter page contains a form allowing users to sign up for weekly emails. The newsletter content is explained in a breif description above the form. This ensures that users know exactly what they are signing up for in advance. The form also requires that users fill in the necessary fields, it cannot be submitted without it. When submitted the user is given visual feedback by displaying a message saying the information was susccesfully sent.
+
+![Screenshot showing newsletter sign up form on desktop](screenshots/newsletter-screenshot.PNG "Newsletter Sign Up Form")
 
 ## Future Plans
 
