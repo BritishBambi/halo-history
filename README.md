@@ -41,7 +41,7 @@ User Stories as followed:
 
 My Navigation bar consists of an unorderd list that has been aligned to the correct space on the screen using flexbox.
 
-The Nav bar will allow easy navigation across all pages of the site. It uses a simple active class to always inform the user what page they are on. It uses a similar class to also show an underline when a new page is hovered over. It exists on every page of the site, negating the need to use the back button at all.
+The Nav bar will allow easy navigation across all pages of the site. It uses a simple active class to always inform the user what page they are on. It uses a similar class to also show an underline when a new page is hovered over. It exists on every page of the site, negating the need to use the back button at all. The logo can also be clicked from any page to return the user back to the homepage.
 
 ![Screenshot showing the Navigation bar on desktop](screenshots/nav-bar.PNG "Nav Bar from Site")
 
@@ -78,7 +78,38 @@ The Newsletter page contains a form allowing users to sign up for weekly emails.
 
 ## Future Plans
 
+Add new pages to detail other elements of the franchise, such as sound/books/movies.
+
+Create a sound page which features a daily song to be featured. Will automatically refresh.
+
+Add interactive gallery to each games timeline block. Allowing users to see further information while maintining mobile responsiveness.
+
+Create a database containing all key knowledge on the franchise. Almost as a mini wiki that can be referenced in text for further reading.
+
 ## Testing
+
+### Chrome Dev Tools
+
+During development I relied heavily on dev tools to make live adjustments to the site. This allowed me to make small changes without effecting my code and needing to reverse engineer any mistakes. Using dev tools I was also able to view my site across a number of different resolutions and screen sizes. This helped me identify where my site may need to be changed to work correctly.
+
+## Deployment
+
+### Site Creation
+
+To begin creating my website I used the Code Institute template by navigating [here](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking "Use this Template".
+
+Once this was done I was able to simply create a new repository from the template and add it to my profile. I named my respository and clicked the create repository from template button.
+
+### Site Deployment
+
+The Steps to Deploy my site were as followed:
+
+1. Log into GitHub and find my site repository
+2. Locate the repository settings button located above the repository content and click on it.
+3. Scroll down to the GitHub Pages section.
+4. Change the source drop down menu from "none" to "main".
+5. Click Save and await site deployment using the provided link to access site once it was live.
+
 
 ## Technologies used
 
@@ -142,6 +173,8 @@ https://www.youtube.com/watch?v=Rh_NXwqFvHc
 ## Acknowledgements
 
 Initial planning and methods were inspired by the Love Running Walkthrough
+
+Thank you to my mentor Daisy for her suggestions and useful resources duirng devlopment.
 
 Code to add aria-label to my background image was found on Stackoverflow at:
 
