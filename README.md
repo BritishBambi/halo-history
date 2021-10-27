@@ -45,7 +45,17 @@ The Nav bar will allow easy navigation across all pages of the site. It uses a s
 
 ![Screenshot showing the Navigation bar on desktop](screenshots/nav-bar.PNG "Nav Bar from Site")
 
+#### Hero Image
 
+When users load into the main page for the first time they will be greeted by a welcome message. It is highlighted by using a hero image that has been blurred. By being blurred it will make the text stand out. It features a button that will directly link a user to the main content of the website. By doing this I'm allowing returning users to quickly find what they are looking for.
+
+![Screenshot showing the hero image on desktop](screenshots/hero-image-screenshot.PNG "Hero Image welcome message")
+
+#### Site Explination
+
+#### Game Explination
+
+#### Footer
 
 ## Future Plans
 

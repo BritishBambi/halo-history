@@ -28,18 +28,16 @@ body {
 
 /* heading styles and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Cinzel, sans-serif;
     letter-spacing: 2px;
-}
-
-h1 {
-    color: #001020;
-}
-
-h2 {
     color: rgb(206, 204, 204);
+}
+
+header p{
+    font-family: Cinzel, sans-serif;
+    letter-spacing: 2px;
+    color: #001020;
 }
 
 #logo {
