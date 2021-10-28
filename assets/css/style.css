@@ -111,6 +111,7 @@ header p{
     background-color: rgb(206, 204, 204);
     color: #001020;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .btn a {
@@ -335,6 +336,10 @@ footer {
         font-size: 20px;
     }
 
+    .btn{
+        font-size: 14px;
+    }
+
     #hero-image {
         height: 200px;
     }
@@ -351,6 +356,10 @@ footer {
 
     #welcome-message {
         font-size: 40px;
+    }
+
+    .btn{
+        font-size: 18px;
     }
 
     #about {
@@ -398,6 +407,10 @@ footer {
         font-size: 40px;
     }
 
+    .btn{
+        font-size: 18px;
+    }
+
     #about {
         font-size: 18px;
     }
@@ -410,5 +423,9 @@ footer {
 
     #welcome-message {
         font-size: 50px;
+    }
+
+    .btn{
+        font-size: 20px;
     }
 }
