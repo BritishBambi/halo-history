@@ -176,6 +176,10 @@ Initial planning and methods were inspired by the Love Running Walkthrough
 
 Thank you to my mentor Daisy for her suggestions and useful resources duirng devlopment.
 
+Script for youtube resize from
+
+ https://avexdesigns.com/blog/responsive-youtube-embed
+
 Code to add aria-label to my background image was found on Stackoverflow at:
 
 https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible/40562191
