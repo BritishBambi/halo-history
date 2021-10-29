@@ -247,6 +247,11 @@ hr {
     text-align: center;
 }
 
+#sign-up-heading{
+    flex-shrink: 0;
+    text-align: center;
+}
+
 /* sign up form styling */
 
 form {

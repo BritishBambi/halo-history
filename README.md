@@ -90,6 +90,12 @@ Create a database containing all key knowledge on the franchise. Almost as a min
 
 ## Testing
 
+I ensured that all the web pages would function correctly on mobile and tablet devices. I also tested for different screen resolutions on desktop. During testing I had trouble with the main home page and used many different media queries to ensure it would display correctly. The main way I tested this was using the responsive window option on Chrome Dev Tools. This allowed live experimentation on different devices and resolutions. Because of this my site is fully function from a minimum screen size of 320px wide. 
+
+After this I used W3C validator for HTML and Jigsaw Validator for CSS. This would further ensure there were no errors in my code. The results of those tests can be seen bellow:
+
+
+
 ### Chrome Dev Tools
 
 During development I relied heavily on dev tools to make live adjustments to the site. This allowed me to make small changes without effecting my code and needing to reverse engineer any mistakes. Using dev tools I was also able to view my site across a number of different resolutions and screen sizes. This helped me identify where my site may need to be changed to work correctly.
