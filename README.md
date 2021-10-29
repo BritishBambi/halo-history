@@ -133,6 +133,25 @@ I was able to use Lighthouse from Chrome Dev Tools throughout development to ens
 
 ![Screenshot showing lighthouse score taken from Chrome Dev Tools](screenshots/lighthouse-screenshot.PNG "Lighthouse Score")
 
+## Bugs
+
+During early development I had incorrectly assigned the list-style for my navigation in the wrong area. It was only when resizing to test responsiveness I realised it was there but hidden as it was the same colour as thhe background. I was able to fix this by moving the list style rule from the #controls ul to #controls li.
+
+For some duration my footer text was not on one line. I was unable to find out why, I then discovered that the divs representing the content blocks on the main page were not the same height as the entire section was set to be. By Setting them down from 400px to 300px the same as the #about section. The content did not change, however the footer text rearanged itself to fit on one line.
+
+While coding, encountered a Blue Screen of Death Error which erased some work half way through some code. Had to wipe clean to be able to structure the timeline properly again.
+
+For a majority of development I had used floats to space and align content. However when attempting to make the site mobile responsive it would create many issues. To fix this I learnt about flex and converted most of my content blocks and the navigation bar to use this method. This would allow all the site content to correctly show up on mobile/tablet devices.
+
+Towards the end of devlopment, I had a bug where my favicon would show up in the local version of my site. However on the deployed version it would display the regular globe icon. However towards the end I realised there was a leading forward slash that was breaking the file structure on the deployed version. By removing this it allowed my favicon to show up on the deployed.
+
+Until the end of devlopment I had a problem where my footer would not stick to the bottom of the page. This was mostly not an issue until the newsletter page. Because there was not as much content on the page the footer would be half way up the users display. To fix this I used flex and a class on the body of the page to keep the main content using 100% of the screen space. Then the footer would always try to stick to the bottom of it.
+
+## Exisiting Bugs
+
+N/A
+
+
 ## Deployment
 
 ### Site Creation
@@ -165,20 +184,6 @@ Gitpod
 Wave Evaluation Tool
 
 Github
-
-## Bugs
-
-During early development I had incorrectly assigned the list-style for my navigation in the wrong area. It was only when resizing to test responsiveness I realised it was there but hidden as it was the same colour as thhe background. I was able to fix this by moving the list style rule from the #controls ul to #controls li.
-
-For some duration my footer text was not on one line. I was unable to find out why, I then discovered that the divs representing the content blocks on the main page were not the same height as the entire section was set to be. By Setting them down from 400px to 300px the same as the #about section. The content did not change, however the footer text rearanged itself to fit on one line.
-
-While coding, encountered a Blue Screen of Death Error which erased some work half way through some code. Had to wipe clean to be able to structure the timeline properly again.
-
-For a majority of development I had used floats to space and align content. However when attempting to make the site mobile responsive it would create many issues. To fix this I learnt about flex and converted most of my content blocks and the navigation bar to use this method. This would allow all the site content to correctly show up on mobile/tablet devices.
-
-## Exisitng Bugs
-
-Towards the end of development when I was creating media queries I noticed that the footer was not sticking to the bottom. While this was not necessarily a problem on most my pages, it was noticable on the Newsletter page. Attempting to use some methods to force it to the bottom have not worked. With further development time I would go back and further test methods to try get this to work. However for now it does not cause any errors or huge navigation issues.
 
 ## Credits
 
