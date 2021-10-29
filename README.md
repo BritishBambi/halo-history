@@ -176,6 +176,10 @@ While coding, encountered a Blue Screen of Death Error which erased some work ha
 
 For a majority of development I had used floats to space and align content. However when attempting to make the site mobile responsive it would create many issues. To fix this I learnt about flex and converted most of my content blocks and the navigation bar to use this method. This would allow all the site content to correctly show up on mobile/tablet devices.
 
+## Exisitng Bugs
+
+Towards the end of development when I was creating media queries I noticed that the footer was not sticking to the bottom. While this was not necessarily a problem on most my pages, it was noticable on the Newsletter page. Attempting to use some methods to force it to the bottom have not worked. With further development time I would go back and further test methods to try get this to work. However for now it does not cause any errors or huge navigation issues.
+
 ## Credits
 
 ### Site Content
