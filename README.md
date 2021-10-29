@@ -6,6 +6,8 @@ My Website is designed to Introduce and Reinform possible customers of the Halo 
 
 As stated by the introduction, the site will aim to draw in people to gain interest in the Halo franchise. To do this, the site will use a simple homepage to encourage new users to find out more. At the same time it will be easy for pre-existing users to find the content that they may be interested in. The Games page will make it easy to digest simple information about each game. Using YouTube embeded trailers I will also allow users to watch a sumarised version of each game to provide further content.
 
+The fonts I used were Cinzel for the headings and logo, and Zen Kaku Gothic Antique. I found that Cinzel worked very well to give a very professional and thematic look to the overall design of my website. The classic nature of it made for a unique contrast to the sci-fi themes of the games. Gothic Antique provided a very easy to read font style for the body of each page. It was simple to read at many different screen sizes and worked nicely to make content stand out against the background.
+
 The colour scheme is based on a simple white and deep blue to contrast the text for ease of reading. The Header will use this variation of white as the primary colour and all the text contained within it shall be blue. This will keep the heading at the central focus point and allow easy navigation. The rest of the sites content will rely on the deep blue in the background and allow bright text to be easily noitced and read. I used the Wave Evaluation tool to ensure the tones of each colour worked appropriatly for all users.
 
 ![Screenshot showing website contract score](screenshots/contrast-screenshot.PNG "Screenshot of Wave Elvaluation Tool")
@@ -30,6 +32,7 @@ User Stories as followed:
 
 * I am checking back for any updates regarding the newest game
 * I am wanting to sign up for the newsletter to get further information
+* I am coming back to find out more/recollect information about one of the older games.
 
 ## Existing Features
 
