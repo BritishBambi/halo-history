@@ -176,9 +176,13 @@ Initial planning and methods were inspired by the Love Running Walkthrough
 
 Thank you to my mentor Daisy for her suggestions and useful resources duirng devlopment.
 
-Script for youtube resize from
+Script for youtube resize from:
 
  https://avexdesigns.com/blog/responsive-youtube-embed
+
+Script for favicon found on StackOverflow at:
+
+https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website
 
 Code to add aria-label to my background image was found on Stackoverflow at:
 
