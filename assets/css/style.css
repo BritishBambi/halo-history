@@ -299,6 +299,11 @@ form button:hover{
     background-color: #c0d0e0;
     cursor: pointer;
 }
+/* 404 page styling */
+
+#error{
+    font-size: 60px;
+}
 
 /* media players */
 

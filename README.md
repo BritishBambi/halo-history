@@ -77,6 +77,12 @@ The Newsletter page contains a form allowing users to sign up for weekly emails.
 
 ![Screenshot showing newsletter sign up form on desktop](screenshots/newsletter-screenshot.PNG "Newsletter Sign Up Form")
 
+#### 404 Page
+
+The user is automatically brought to the 404 error page whenever they go to a page which does not exist. This is usually by mistyping something into the address bar or by following an incorrect link. In the case that a user makes the mistake of mistyping the page in the bar I have created my own 404 page which follows the styling of the rest of the site. As well as this it also features a simple message to explain to users what has happened. Then they can use the large provided button which will bring them back to the home page. This ensures they stay within the realms of the site and don't get lost or frustrated.
+
+![Screenshot showing 404 page on desktop](screenshots/404.PNG "404 Error page")
+
 ## Future Plans
 
 Add new pages to detail other elements of the franchise, such as sound/books/movies.
