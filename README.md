@@ -80,6 +80,8 @@ The Newsletter page contains a form allowing users to sign up for weekly emails.
 
 Add new pages to detail other elements of the franchise, such as sound/books/movies.
 
+Expand current timeline to include the spin offs from the main games and feature a way to navigate between them.
+
 Create a sound page which features a daily song to be featured. Will automatically refresh.
 
 Add interactive gallery to each games timeline block. Allowing users to see further information while maintining mobile responsiveness.
@@ -91,6 +93,12 @@ Create a database containing all key knowledge on the franchise. Almost as a min
 ### Chrome Dev Tools
 
 During development I relied heavily on dev tools to make live adjustments to the site. This allowed me to make small changes without effecting my code and needing to reverse engineer any mistakes. Using dev tools I was also able to view my site across a number of different resolutions and screen sizes. This helped me identify where my site may need to be changed to work correctly.
+
+### Lighthouse Dev Tools
+
+I was able to use Lighthouse from Chrome Dev Tools throughout development to ensure my Website was hitting my goals. I was able to ensure best practices were being used and that my website performance was high scoring. From the screenshot bellow you can see that SEO and Accesability was also greatly considered in site production.
+
+![Screenshot showing lighthouse score taken from Chrome Dev Tools](screenshots/lighthouse-screenshot.PNG "Lighthouse Score")
 
 ## Deployment
 
@@ -138,6 +146,10 @@ For a majority of development I had used floats to space and align content. Howe
 ## Credits
 
 ### Site Content
+
+Favicon Taken from:
+
+https://www.deviantart.com/mutationfoxy/art/Master-Chief-Stock-823478259
 
 My background image was taken from:
 
