@@ -151,11 +151,11 @@ For a majority of development I had used floats to space and align content. Howe
 
 Towards the end of devlopment, I had a bug where my favicon would show up in the local version of my site. However on the deployed version it would display the regular globe icon. However towards the end I realised there was a leading forward slash that was breaking the file structure on the deployed version. By removing this it allowed my favicon to show up on the deployed.
 
-Until the end of devlopment I had a problem where my footer would not stick to the bottom of the page. This was mostly not an issue until the newsletter page. Because there was not as much content on the page the footer would be half way up the users display. To fix this I used flex and a class on the body of the page to keep the main content using 100% of the screen space. Then the footer would always try to stick to the bottom of it.
+Until the end of devlopment I had a problem where my footer would not stick to the bottom of the page. This was mostly not an issue until the newsletter page. Because there was not as much content on the page the footer would be half way up the users display. To fix this I used flex and a class on the body of the page to keep the main content using 100% of the screen space. Then the footer would always try to stick to the bottom of it. Right at the end of development this was also applied to the index page to avoid a slight scroll that users had.
 
 ## Exisiting Bugs
 
-N/A
+Right at the end of development I was able to identify all existing bugs and fix them. After testing every page on multiple displays and screen sizes I was not able to find anymore. However for the future if any bugs were to appear I would find the source of the issue and aim to fix it ASAP to avoid negative user experience.
 
 
 ## Deployment
@@ -247,6 +247,10 @@ https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favico
 Code to add aria-label to my background image was found on Stackoverflow at:
 
 https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible/40562191
+
+Sticky footer techiniqiue was learned from:
+
+https://css-tricks.com/couple-takes-sticky-footer/
 
 Flex box code and tutorial to make content responsive was found here:
 

@@ -7,15 +7,13 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100%;
 }
 
 header {
     background-color: rgb(206, 204, 204);
-    overflow: hidden;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -31,19 +29,20 @@ body {
     height: 100%;
 }
 
-main{
+main {
     flex: 1 0 auto;
 }
 
 /* heading styles and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Cinzel, sans-serif;
     letter-spacing: 2px;
     color: rgb(206, 204, 204);
 }
 
-header p{
+header p {
     font-family: Cinzel, sans-serif;
     letter-spacing: 2px;
     color: #001020;
@@ -91,7 +90,7 @@ header p{
     border-bottom: 1px solid #001020;
 }
 
-.body{
+.body {
     display: flex;
     flex-direction: column;
 }
@@ -138,10 +137,6 @@ header p{
 }
 
 /* about section for site and game */
-
-#about {
-    height: 65%;
-}
 
 #about-site {
     padding-top: 30px;
@@ -254,7 +249,7 @@ hr {
     text-align: center;
 }
 
-#sign-up-heading{
+#sign-up-heading {
     flex-shrink: 0;
     text-align: center;
 }
@@ -269,7 +264,7 @@ form {
     margin-top: 30px;
 }
 
-.form-input{
+.form-input {
     padding: 5px;
     font-family: inherit;
     font-weight: bold;
@@ -280,12 +275,12 @@ form {
     border-radius: 20px;
 }
 
-.form-input::placeholder{
+.form-input::placeholder {
     color: #001020;
     opacity: 0.6;
 }
 
-form button{
+form button {
     margin-top: 6px;
     padding: 15px;
     font-family: Cinzel, sans-serif;
@@ -294,13 +289,14 @@ form button{
     border-radius: 15px;
 }
 
-form button:hover{
+form button:hover {
     background-color: #c0d0e0;
     cursor: pointer;
 }
+
 /* 404 page styling */
 
-#error{
+#error {
     font-size: 60px;
 }
 
@@ -342,7 +338,7 @@ footer {
     color: rgb(204, 204, 206);
 }
 
-.social-links i:hover{
+.social-links i:hover {
     font-size: 250%;
     color: rgb(146, 160, 185);
 }
@@ -356,7 +352,7 @@ footer {
         font-size: 19px;
     }
 
-    .btn{
+    .btn {
         font-size: 14px;
     }
 
@@ -378,7 +374,7 @@ footer {
         font-size: 40px;
     }
 
-    .btn{
+    .btn {
         font-size: 18px;
     }
 
@@ -428,7 +424,7 @@ footer {
         font-size: 40px;
     }
 
-    .btn{
+    .btn {
         font-size: 18px;
     }
 
@@ -446,7 +442,7 @@ footer {
         font-size: 50px;
     }
 
-    .btn{
+    .btn {
         font-size: 20px;
     }
 }
