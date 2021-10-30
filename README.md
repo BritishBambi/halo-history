@@ -103,6 +103,26 @@ All Navigation links lead to the correct pages and have a visual indicator for t
 
 All videos and images are responsive and either scale in size or width to allow them to function on all devices.
 
+I have ensured that the site works across a large number of devices. While also using the inbuilt repsonive devices on dev tools I used and Ultrawide monitor, a 1440p monitor, a OnePlus 8 and and iPhone 8 mobile device. I could find no issues on these devices as compared to the usual dev tools version.
+
+Here is what my website looked like on a range of devices:
+
+![Screenshot showing responsive test](screenshots/responsive-test.PNG "Site Responsive Test")
+
+This show my site running at the following sizes:
+
+Desktop
+1600x992px
+
+Laptop
+1280x802px
+
+Tablet
+768x1024px
+
+Mobile
+320x480px
+
 I used W3C validator for HTML and Jigsaw Validator for CSS. This would further ensure there were no errors in my code. The results of those tests can be seen bellow:
 
 Home Page / Index:
@@ -189,6 +209,8 @@ Gitpod
 
 Wave Evaluation Tool
 
+Chrome Dev Tools
+
 Github
 
 ## Credits
@@ -238,7 +260,7 @@ Thank you to my mentor Daisy for her suggestions and useful resources duirng dev
 
 Script for youtube resize from:
 
- https://avexdesigns.com/blog/responsive-youtube-embed
+https://avexdesigns.com/blog/responsive-youtube-embed
 
 Script for favicon found on StackOverflow at:
 
@@ -257,6 +279,10 @@ Flex box code and tutorial to make content responsive was found here:
 https://www.w3schools.com/css/css3_flexbox_responsive.asp
 
 https://flexboxfroggy.com
+
+Website Responsive Test:
+
+http://ami.responsivedesign.is/#
 
 Code to add images to readme:
 
